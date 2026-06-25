@@ -13,9 +13,9 @@ class Solution
 public:
   static constexpr int MAXN = 31;
 
-  static int father[MAXN];
+  int father[MAXN];
 
-  static int sets;
+  int sets;
 
   int minSwapsCouples(vector<int> &row)
   {
