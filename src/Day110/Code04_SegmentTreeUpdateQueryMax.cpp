@@ -54,7 +54,7 @@ void build(int l, int r, int i)
   update[i] = false;
 }
 
-void rangeUpdate(int jobl, int jobr, long jobv, int l, int r, int i)
+void rangeUpdate(int jobl, int jobr, ll jobv, int l, int r, int i)
 {
   if (jobl <= l && r <= jobr)
   {
